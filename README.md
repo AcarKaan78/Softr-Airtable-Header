@@ -16,14 +16,14 @@ Click on one of the three buttons:
 
 Dept Ticket: Displays the table from 'https://www.han.company/ticket-dept'.
 Ticket Yönlendir: Presents the table from 'https://www.han.company/ticket-bildiri-yonlendir'.
-Ticket Gecikme: Loads the table from 'https://www.han.company/ticket-talep-gecikme'.
-By default, the "Dept Ticket" content will be loaded when the page is initially accessed.
+Ticket Gecikme: Loads the table from 'https://www.han.company/ticket-talep-gecikme'. By default, the "Dept Ticket" content will be loaded when the page is initially accessed.
 
 Tech Stack
 ----------
 HTML5
 CSS3
 JavaScript
+
 
 Future Enhancements
 -Add more interactive elements to the header.
