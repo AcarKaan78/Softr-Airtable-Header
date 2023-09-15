@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softr Website Header</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F3EEE4;
+        }
+
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: transparent;
+            padding: 10px 20px;
+        }
+        
+        .header-button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #333;
+            color: #FFF;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 25px;  /* This gives the rounded corners */
+        }
+
+        .header-button:hover {
+            background-color: #555;
+        }
+
+        iframe {
+            width: 100%;
+            height: 80vh; 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div>
+        <button class="header-button" onclick="loadLink('put your first link here')">first page</button>
+        <button class="header-button" onclick="loadLink('put your second link here')">second page</button>
+        <button class="header-button" onclick="loadLink('put your third link here')">third page</button>
+    </div>
+</div>
+
+<!-- Set the iframe's default src to 'default link you want' -->
+<iframe id="contentFrame" src="default link"></iframe>
+
+<script>
+    function loadLink(url) {
+        document.getElementById('contentFrame').src = url;
+    }
+</script>
+
+</body>
+</html>
+
